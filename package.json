@@ -31,6 +31,8 @@
     "typeface-montserrat": "0.0.75"
   },
   "devDependencies": {
+    "date-fns": "^2.19.0",
+    "plop": "^2.7.4",
     "prettier": "2.2.1"
   },
   "repository": {
@@ -43,6 +45,7 @@
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "create": "plop"
   }
 }
